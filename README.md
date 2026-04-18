@@ -6,6 +6,11 @@ into broader surveillance and safety monitoring scenarios.
 
 ---
 
+### 🌐 [Live Web Dashboard](https://smart-attendance-system-cv.streamlit.app/)
+*(Deploy your `app_web.py` to Streamlit Cloud to activate this link!)*
+
+---
+
 ## Key Highlights
 
 ### 1 · Modular Architecture
@@ -96,5 +101,19 @@ python main.py
    attendance is auto-logged
 4. **Surveillance** — set a zone label → *Start Surveillance* for lightweight
    motion + crowd + intruder monitoring (no dlib required)
+5. **Dashboard** — run `streamlit run app_web.py` to view analytics and evidence.
 
-Press **Q** inside any OpenCV window to return to the dashboard.
+---
+
+## 🚀 Deployment
+
+### Web Dashboard
+1. Push this repo to GitHub.
+2. Sign in to [Streamlit Cloud](https://share.streamlit.io).
+3. Click "New App" and select this repository.
+4. Set the main file path to `app_web.py`.
+5. Your dashboard is now live!
+
+### Windows Executable
+Run `python build_exe.py` to generate a standalone `.exe` in the `dist/` folder.
+
