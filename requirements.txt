@@ -3,3 +3,5 @@ face-recognition
 numpy
 pandas
 dlib
+streamlit
+matplotlib
