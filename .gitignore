@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Face dataset & encodings (large binary/personal data — not committed)
+dataset/
+database/encodings.pickle
+database/unknown_faces/
+database/surveillance_logs/
+
+# Attendance CSV logs (generated at runtime)
+database/Attendance_*.csv
+
+# Keep the database folder itself
+!database/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
